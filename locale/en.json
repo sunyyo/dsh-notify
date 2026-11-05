@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Desktop Notifications",
+    "description": "Notifies you with a system notification and an in-app card when a task finishes or needs confirmation while DSH is in the background; clicking a reminder opens the session."
+  }
+}

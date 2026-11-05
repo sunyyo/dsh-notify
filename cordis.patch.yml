@@ -1,0 +1,7 @@
+# dsh-notify bundle patch：向 profile 插入一行。
+# 该行同时是宿主 Loader 条目（Host half 为空实现）与 `dsh.client` 浏览器 roster 条目；
+# 真正的行为全部在客户端半（lib/client.js）里。
+
+- insert:
+    - id: dsh-notify
+      name: 'dsh-notify'
